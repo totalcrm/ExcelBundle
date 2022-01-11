@@ -1,4 +1,4 @@
-Symfony2 Excel bundle
+Symfony4 Excel bundle
 ============
 
 This bundle permits you to create, modify and read excel objects.
