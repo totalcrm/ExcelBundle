@@ -17,8 +17,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $treeBuilder->root('totalcrm_excel');
+        $treeBuilder = new TreeBuilder('totalcrm_excel');
 
         return $treeBuilder;
     }
